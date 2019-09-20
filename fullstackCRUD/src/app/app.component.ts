@@ -7,7 +7,6 @@ import { NavigationCancel, Event, NavigationEnd, NavigationError, NavigationStar
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-
 export class AppComponent {
   title = 'fullstackCRUD';
   constructor(private loadingBar: SlimLoadingBarService, private router: Router) {
