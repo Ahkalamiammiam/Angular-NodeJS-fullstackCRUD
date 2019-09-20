@@ -1,5 +1,6 @@
 export default class Product {
+    _id: string;
     ProductName: string;
     ProductDescription: string;
-    ProductPirce: number;
-}
+    ProductPrice: number;
+} 
